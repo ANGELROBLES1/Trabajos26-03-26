@@ -77,7 +77,7 @@ Esto divide la expresion en dos partes:
 - T representa el primer operando  
 - Ep representa el resto de la expresion  
 
-1. El primer T se deriva como:
+# 1. El primer T se deriva como:
 
 T -> F Tp  
 F -> id  
@@ -86,13 +86,13 @@ Esto representa el primer valor de la expresion:
 
 id  
 
-2. Luego Ep se deriva como:
+# 2. Luego Ep se deriva como:
 
 Ep -> + T Ep  
 
 Aqui aparece el operador +, indicando que la expresion continua.
 
-3. El segundo T se deriva como:
+# 3. El segundo T se deriva como:
 
 T -> F Tp  
 F -> id  
