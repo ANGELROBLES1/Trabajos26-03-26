@@ -1,6 +1,6 @@
 # Trabajos26-03-26
 
-## Arbol de Sintaxis con Gramatica Libre de Contexto
+# Arbol de Sintaxis con Gramatica Libre de Contexto
 
 # Requerimientos
 
@@ -65,3 +65,51 @@ Si el arbol se genera correctamente significa que la cadena pertenece al lenguaj
 Si ocurre un error significa que la cadena no puede ser generada por la gramatica  
 Esto permite entender como un compilador interpreta estructuras a partir de reglas formales  
 <img width="446" height="404" alt="image" src="https://github.com/user-attachments/assets/134595e1-47bc-451a-a20b-493357892801" />
+
+El nodo raiz es E, que corresponde al simbolo inicial de la gramatica. Desde este nodo se deriva toda la expresion.
+
+La produccion aplicada es:
+
+E -> T Ep  
+
+Esto divide la expresion en dos partes:
+
+- T representa el primer operando  
+- Ep representa el resto de la expresion  
+
+1. El primer T se deriva como:
+
+T -> F Tp  
+F -> id  
+
+Esto representa el primer valor de la expresion:
+
+id  
+
+2. Luego Ep se deriva como:
+
+Ep -> + T Ep  
+
+Aqui aparece el operador +, indicando que la expresion continua.
+
+3. El segundo T se deriva como:
+
+T -> F Tp  
+F -> id  
+
+Pero adicionalmente:
+
+Tp -> * F Tp  
+F -> id  
+
+Esto representa la operacion:
+
+id * id  
+
+# Conclusión
+
+El arbol completo representa la expresion:
+
+id + (id * id)  
+
+Esto demuestra que el programa respeta la jerarquia de operadores, dando prioridad a la multiplicacion sobre la suma.
