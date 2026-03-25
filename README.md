@@ -1,4 +1,3 @@
-# Trabajos26-03-26
 
 # Arbol de Sintaxis con Gramatica Libre de Contexto
 
