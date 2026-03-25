@@ -63,7 +63,5 @@ Aplica un metodo recursivo probando cada produccion posible hasta encontrar una 
 El arbol de sintaxis representa como la cadena es generada a partir de la gramatica. Cada nodo corresponde a un simbolo y sus hijos representan la produccion aplicada  
 Si el arbol se genera correctamente significa que la cadena pertenece al lenguaje definido  
 Si ocurre un error significa que la cadena no puede ser generada por la gramatica  
-
-
-Esto permite entender como un compilador interpreta estructuras  
-a partir de reglas formales  
+Esto permite entender como un compilador interpreta estructuras a partir de reglas formales  
+<img width="446" height="404" alt="image" src="https://github.com/user-attachments/assets/134595e1-47bc-451a-a20b-493357892801" />
