@@ -106,10 +106,9 @@ Esto representa la operacion:
 
 id * id  
 
-# Conclusión
+## Conclusión
 
 El arbol completo representa la expresion:
 
 id + (id * id)  
-
 Esto demuestra que el programa respeta la jerarquia de operadores, dando prioridad a la multiplicacion sobre la suma.
