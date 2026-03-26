@@ -34,10 +34,6 @@ La linea despues de %% representa la cadena que sera analizada
 
 
 ### 2. Abrir la terminal
-
-Abrir una terminal en el sistema operativo Ubuntu  
-
-
 ### 3. Navegar hasta la carpeta del programa
 
 Usar comandos para ubicarse en el directorio donde estan los archivos  
@@ -50,10 +46,7 @@ entrada.txt
 
 ### 4. Ejecutar el programa
 
-Ejecutar el siguiente comando:
-
 python3 punto1.py  
-
 
 ### 5. Funcionamiento del programa
 
